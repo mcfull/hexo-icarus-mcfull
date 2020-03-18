@@ -56,7 +56,7 @@ article:
     highlight:
         # Code highlight themes
         # https://github.com/highlightjs/highlight.js/tree/master/src/styles
-        theme: atom-one-light
+        theme: atom-one-dark
         # Show code copying button
         clipboard: true
         # Default folding status of the code blocks. Can be "", "folded", "unfolded"
@@ -74,7 +74,12 @@ search:
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Comment
 comment:
     # Name of the comment plugin
-    type: 
+    type: gitalk
+    owner: mcfull
+    repo: mcfull.github.io
+    client_id: d17764f89cbcf2588cbc
+    client_secret: 6d8bd156767a7c22f79d053210f5e8c02b692251
+    admin: mcfull
 # Donation entries
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
@@ -82,12 +87,12 @@ donate:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: ''
+        qrcode: 'http://q73fe3sdl.bkt.clouddn.com/qrcode/alipay.png'
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: ''
+        qrcode: 'http://q73fe3sdl.bkt.clouddn.com/qrcode/wechat.png'
     -
         # Donation entry name
         type: paypal
@@ -127,11 +132,11 @@ widgets:
         # Where should the widget be placed, left or right
         position: left
         # Author name to be shown in the profile widget
-        author: McFull
+        author: 猫使
         # Title of the author to be shown in the profile widget
-        author_title: Your title
+        author_title: 一个入门级全栈攻城狮
         # Author's current location to be shown in the profile widget
-        location: Your location
+        location: China·GuangZhou
         # Path or URL to the avatar to be shown in the profile widget
         avatar: 
         # Email address for the Gravatar to be shown in the profile widget
