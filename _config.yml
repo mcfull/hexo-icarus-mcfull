@@ -87,24 +87,24 @@ donate:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: 'http://q73fe3sdl.bkt.clouddn.com/qrcode/alipay.png'
+        qrcode: 'http://q73fe3sdl.bkt.clouddn.com/qrcode/alipay.jpg'
     -
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: 'http://q73fe3sdl.bkt.clouddn.com/qrcode/wechat.png'
+        qrcode: 'http://q73fe3sdl.bkt.clouddn.com/qrcode/wechat.jpg'
     -
         # Donation entry name
         type: paypal
         # Paypal business ID or email address
-        business: ''
+        business: 'mcfull@163.com'
         # Currency code
         currency_code: USD
     -
         # Donation entry name
         type: patreon
         # URL to the Patreon page
-        url: ''
+        url: 'https://www.patreon.com/mcfull'
 # Share plugin settings
 # https://ppoffice.github.io/hexo-theme-icarus/categories/Plugins/Share
 share:
@@ -152,16 +152,16 @@ widgets:
                 url: 'https://github.com/mcfull'
             Facebook:
                 icon: fab fa-facebook
-                url: 'https://facebook.com'
+                url: 'https://www.facebook.com/mcfull9527'
             Twitter:
                 icon: fab fa-twitter
-                url: 'https://twitter.com'
+                url: 'https://twitter.com/mcfull'
             Dribbble:
                 icon: fab fa-dribbble
-                url: 'https://dribbble.com'
+                url: 'https://dribbble.com/mcfull'
             RSS:
                 icon: fas fa-rss
-                url: /
+                url: /atom.xml
     -
         # Widget name
         type: toc
